@@ -26,7 +26,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Rheo" />
 
         <Header />
 
@@ -41,59 +41,50 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>About Us</h2>
                 </header>
-                <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                <p>We provide solutions in areas such as Data Analytics,
+                Reporting, Data Extraction, Visualization and Business Automation .
                 </p>
-                <ul className="actions">
+                {/*}<ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
                       Learn More
                     </Link>
                   </li>
-                </ul>
+                </ul>*/}
               </div>
-              <span className="image">
-                <img src={pic01} alt="" />
-              </span>
+              <span className="icon major style3 fa-line-chart"></span>
             </div>
           </section>
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Services</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                <span className="icon major style1 fa-bar-chart"></span>
+                <h3>Reporting</h3>
+                <p>We deliver high quality reports in Power BI, DOMO, SSRS and Tableau.
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                <span className="icon major style3 fa-database"></span>
+                <h3>Databases</h3>
+                <p>We deal in frameworks such as MYSQL, MSSQL
+                and also provide ETL design and deployment using SSIS.
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <span className="icon major style5 fa-file-code-o"></span>
+                <h3>Analytics</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                We use Python to process, transform, extract and analyze data.
                 </p>
               </li>
             </ul>
-            <footer className="major">
+            {/*}<footer className="major">
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
@@ -101,10 +92,10 @@ class Index extends React.Component {
                   </Link>
                 </li>
               </ul>
-            </footer>
+            </footer>*/}
           </section>
 
-          <section id="second" className="main special">
+          {/*}<section id="second" className="main special">
             <header className="major">
               <h2>Ipsum consequat</h2>
               <p>
@@ -156,9 +147,9 @@ class Index extends React.Component {
                 </li>
               </ul>
             </footer>
-          </section>
+          </section>*/}
 
-          <section id="cta" className="main special">
+          {/*}<section id="cta" className="main special">
             <header className="major">
               <h2>Congue imperdiet</h2>
               <p>
@@ -181,7 +172,7 @@ class Index extends React.Component {
                 </li>
               </ul>
             </footer>
-          </section>
+          </section>*/}
         </div>
       </Layout>
     )
